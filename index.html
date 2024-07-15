@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Check</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c985a6a735.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="search-field">
+            <div>
+                <i class="fa-solid fa-location-dot"></i>
+                <input type="text" placeholder="Enter your location" class="search">
+            </div>
+            <button class="searchBtn">Search</button>
+        </div>
+
+        <p class="city-hide">city hide</p>
+
+        <div class="weather-box">
+            <div class="box">
+                <div class="info-weather">
+                    <div class="weather">
+                        <img src="images/cloud.png">
+                        <p class="tempreture">0<span>&deg;C</span></p>
+                        <p class="description">Broken Clouds</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="weather-details">
+            <div class="humidity">
+                <i class="fa-solid fa-water"></i>
+                <div class="text">
+                    <div class="info-humidity">
+                        <span>0%</span>
+                    </div>
+                    <p>Humidity</p>
+                </div>
+            </div>
+
+            <div class="wind">
+                <i class="fa-solid fa-wind"></i>
+                <div class="text">
+                    <div class="info-wind">
+                        <span>0km/h</span>
+                    </div>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+        <div class="not-found">
+            <div class="box">
+                <img src="images/404.png">
+                <p>Oops! Location not found!</p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
